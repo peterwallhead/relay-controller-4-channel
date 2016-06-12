@@ -18,7 +18,7 @@ void setup() {
   //Set INPUT pins
   int inputPinN;
   for(inputPinN=2; inputPinN<=5; inputPinN++) {
-      pinMode(inputPinN, OUTPUT);
+      pinMode(inputPinN, INPUT);
   }
 
   //Set OUTPUT pins
